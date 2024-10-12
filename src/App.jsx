@@ -49,7 +49,7 @@ export const App = () => {
   const isActive = field => field !== sortField;
 
   const reset = () => {
-    setSortField('reset');
+    setSortField('');
     setReversed(false);
   };
 
